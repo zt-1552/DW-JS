@@ -44,4 +44,5 @@ gulp.task('watch', function() {
   gulp.watch('index.html', gulp.series('html', 'htmlreload'));
 });
 
+gulp.task('pre-dev', gulp.series('image', 'css', 'js', 'html'));
 gulp.task('dev', gulp.series(gulp.parallel('connect', 'watch')));
