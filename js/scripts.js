@@ -14,4 +14,8 @@ function counter5second() {
   }
 }
 
+function addHtml(sec, text) {
+
+}
+
 })(jQuery);
