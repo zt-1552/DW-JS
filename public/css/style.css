@@ -6,3 +6,15 @@
 #btn-top-grey {
   display: none;
 }
+
+#btn-top-fast-counter {
+  display: none;
+}
+
+.modal-backdrop {
+	background-color: #fff;
+}
+
+.modal-content {
+	border: 3px solid rgba(0,0,0,.2);
+}
