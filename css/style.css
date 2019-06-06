@@ -11,6 +11,10 @@
   display: none;
 }
 
+button {
+  display: inline-block;
+}
+
 .modal-backdrop {
 	background-color: #fff;
 }

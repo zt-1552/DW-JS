@@ -10,7 +10,7 @@
   })
 
   $('#btnClear').on('click', function (){
-    $('#container').hide();
+    $('#wrap').hide();
   })
 
 function addRedAndTimer () {
@@ -43,7 +43,7 @@ function addRedAndTimer () {
       {
         marginLeft: "200px",
         marginTop: "100px",
-        borderRadius: "15px",
+        borderRadius: "20px",
       }, 2000 );
   }
 
