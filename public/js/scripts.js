@@ -6,7 +6,6 @@
     setTimeout(startCountUp, 1000);
     setTimeout(animBtn, 9000);
     setTimeout(addRedAndTimer, 13000);
-
   })
 
   $('#btnClear').on('click', function (){
